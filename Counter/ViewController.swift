@@ -21,8 +21,9 @@ class ViewController: UIViewController {
     
     @IBOutlet private weak var restartButton: UIButton!
     
-    @IBOutlet private weak var infoTextView: UITextView!
     
+    
+    @IBOutlet private weak var infoTextView: UITextView!
     // Методы класса
     
     override func viewDidLoad() {
@@ -53,10 +54,5 @@ class ViewController: UIViewController {
         mainCounter.text = "0"
         infoTextView.text.append("\n[\(Date().formatted())]: значение сброшено")
    }
-    
-    
-    
-
-
 }
 

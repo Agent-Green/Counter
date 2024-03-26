@@ -79,7 +79,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="infoCounter" destination="yvu-op-ZWP" id="bAK-Jh-iVO"/>
+                        <outlet property="infoTextView" destination="yvu-op-ZWP" id="rtb-oK-RTb"/>
                         <outlet property="mainCounter" destination="2db-Qf-pO8" id="G4c-oY-WsU"/>
                         <outlet property="minusOneButton" destination="db9-Gy-Shc" id="oI5-Ud-vSM"/>
                         <outlet property="plusOneButton" destination="fgT-T3-oNz" id="1Ns-2I-8kp"/>
